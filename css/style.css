@@ -10,8 +10,24 @@ header{
 }
 
 .header-top {
-    height: 4rem;
+    height: 80px;
     background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top-info{
+    background-color: #DAA521;
+    width: 1000px;
+    height: 45px;
+}
+
+.header-bottom {
+    height: calc(50vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-bottom-info {
