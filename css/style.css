@@ -10,6 +10,10 @@
     display: flex;
 }
 
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
 .bg-grey {
     background-color: gray;
 }
@@ -21,6 +25,7 @@
     background-color: pink;
 }
 
+/* header */
 header{
     height: 50vh;
     background-color: #00008B;
@@ -40,26 +45,30 @@ header{
     width: 80%;
     height: 45px;
     display: flex;
+    border: 2px dotted black;
     justify-content: center;
     align-items: center;
-    border: 2px dotted black;
 }
 
 header .logo,
-header .login{
-    height: 100%;
+header .login {
+    line-height: 45px;
     width: 25%;
     border: 2px dotted black;
 }
 
 header .menu{
+    line-height: 45px;
     width: 50%;
-    height: 100%;
     border: 2px dotted black;
     text-align: center;
 }
 
+header .login{
+    text-align: right;
+}
 
+/* header bottom */
 
 .header-bottom {
     height: calc(50vh - 80px);
@@ -89,9 +98,7 @@ main{
     height: 350px;
     display: flex;
 }
-.flex-reverse{
-    flex-direction: row-reverse;
-}
+
 
 .img{
     width: 60%;
@@ -125,8 +132,7 @@ main{
 }
 
 /* footer */
-
-footer{
+footer {
     height: 600px;
     background-color: rgb(58, 58, 58);
 }
@@ -160,7 +166,7 @@ footer{
     flex-grow: 1;
     flex-shrink: 1;
 }
-
+/* bottom footer */
 .bottom-footer {
     display: flex;
     justify-content: space-between;
